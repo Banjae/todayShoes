@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./components/Weather";
+import Home from "./pages/Weather";
 import Login from "./pages/Login";
+import Map from "./pages/Map";
 import SignUp from "./pages/SignUp";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/Map" element={<Map />} />
       </Routes>
     </Router>
   );
