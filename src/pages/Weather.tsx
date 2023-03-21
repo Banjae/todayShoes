@@ -55,7 +55,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>{city}의 날씨</h1>
+      <h1>{state.cityName}의 날씨</h1>
       <h2>{temp}℃</h2>
       <img src={weatherImg} alt="weathrImg" />
       <h3>{koWeather}</h3>
